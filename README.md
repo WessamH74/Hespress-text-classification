@@ -1,7 +1,9 @@
 # Hespress-text-classification
 
-I have used stories columns to classify each topic, so I have done a lot
-of preprocessing steps.
+I have used stories columns to classify each topic, so I have done a lot,
+also I have preprocessed data before at EDA repo and saved data to load it for classification.
+that's my steps for preprocessing and classification:
+
 1. Removed diacritics (tashkeel).
 2. Removed stopwords (في, الى, من).
 3. Removed punctuation and special characters (@, #).
