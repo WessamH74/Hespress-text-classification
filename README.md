@@ -1,6 +1,6 @@
 # Hespress-text-classification
 
-I have used stories columns to classify each topic, so I have done a lot,
+I have used stories and title columns to classify each topic,
 also I have preprocessed data before at EDA repo and saved data to load it for classification.
 that's my steps for preprocessing and classification:
 
@@ -15,5 +15,5 @@ that's my steps for preprocessing and classification:
 9. Defined a linear kernel for SVM and it is considered as binary classification (one vs rest) (ensemble learning).
 10. Looped over classes to create a binary classifier for each class to train on it.
 11. Looped over classifiers to predict probabilities and determine the class according to the max probability.
-12. Evaluated the performance using (accuracy, f1-score, precision, recall) per class.
+12. Evaluated the performance using (accuracy, f1-score, precision, and recall) per class.
 13. Calculated the confusion matrix.
