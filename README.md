@@ -12,7 +12,7 @@ that's my steps for preprocessing and classification:
 6. Split data into 80% training and 20% testing per class.
 7. Split into X_train, Y_train, X_test, Y_test
 8. Used TF-IDF to represent the stories and titles as the training features.
-9. Uses Naive Bayes classifier with GridSearch cross-validation to find best parameters
+9. Used Naive Bayes classifier with GridSearch cross-validation to find the best parameters
 10. Naive Bayes had a 78% accuracy
 11. Trained another model support vector machine with linear kernel, also I applied GridSearch cross-validation to find the best parameters
 12. SVM had 85% accuracy
